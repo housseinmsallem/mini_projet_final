@@ -118,30 +118,30 @@ mini_projet_final/
 1. **Build the inverted index**:
 
    ```bash
-   python src/build_index.py
+   python -m src.build_index
    ```
 
 2. **Vectorize documents (TF-IDF)**:
 
    ```bash
-   python src/vectorize.py
+   python -m src.vectorize
    ```
 
 3. **Run ranking and evaluation**:
 
    ```bash
-   python src/rank_and_eval.py
+   python -m src.rank_and_eval
    ```
 
 4. **Run ablation studies** (optional):
 
    ```bash
-   python src/run_ablation.py
+   python -m src.run_ablation
    ```
 
 5. **Generate visualizations** (optional):
    ```bash
-   python src/plot_results.py
+   python -m src.plot_results
    ```
 
 ## Output Files
